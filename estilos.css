@@ -12,7 +12,7 @@ h2{
     text-align: center;
 }
 
-a{
+#boton1{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -28,7 +28,7 @@ a{
     box-shadow: 0px 0px 5px black;
     font-family: 'minecraft_pe', sans-serif;
 }
-a2{
+#boton2{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -44,7 +44,7 @@ a2{
     box-shadow: 25px 0px 5px rgb(11, 60, 235);
     font-family: 'minecraft_pe', sans-serif;
 }
-a3{
+#boton3{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -60,7 +60,7 @@ a3{
     box-shadow: 0px 0px 50px rgb(213, 207, 15);
     font-family: 'minecraft_pe', sans-serif;
 }
-a4{
+#boton4{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -76,7 +76,7 @@ a4{
     box-shadow: 0px 50px 5px rgb(58, 50, 50);
     font-family: 'minecraft_pe', sans-serif;
 }
-a5{
+#boton5{
     display: block;
     text-align: left;
     text-decoration: none;
@@ -92,23 +92,7 @@ a5{
     box-shadow: -25px 0px 5px rgb(153, 24, 24);
     font-family: 'minecraft_pe', sans-serif;
 }
-a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(128, 128, 128);
-    color: white;
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-    margin: 10px auto;
-    padding: 5px;
-    border: red groove 2px;
-    border-radius: 0px 10px 50px 0px;
-    box-shadow: 0px 0px 5px black;
-    font-family: 'minecraft_pe', sans-serif;
-}
-a:hover{
+#boton1:hover{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -126,7 +110,7 @@ a:hover{
     transform: scale(1.2);
     font-family: 'minecraft_pe', sans-serif;
 }
-a2:hover{
+#boton2:hover{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -144,7 +128,7 @@ a2:hover{
     transform: scale(1.2);
     font-family: 'minecraft_pe', sans-serif;
 }
-a3:hover{
+#boton3:hover{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -162,7 +146,7 @@ a3:hover{
     transform: scale(1.2);
     font-family: 'minecraft_pe', sans-serif;
 }
-a4:hover{
+#boton4:hover{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -180,7 +164,7 @@ a4:hover{
     transform: scale(1.2);
     font-family: 'minecraft_pe', sans-serif;
 }
-a5:hover{
+#boton5:hover{
     display: block;
     text-align: center;
     text-decoration: none;
