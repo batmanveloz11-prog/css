@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta</title>
+    <link rel="stylesheet" href="css/10maqueta.css">
+</head>
+<body>
+    <header><h1>Formulario</h1></header>
+    <nav>Navigation</nav>
+    <main>
+        <aside>
+            <a id="boton" href="10maqueta01.html">Biografia</a>
+            <a id="boton" href="10maqueta02.html">Hobbies</a>
+            <a id="boton" href="10maqueta03.html">Tabla</a>
+            <a id="boton" href="10maqueta04.html">Tim</a>
+            <a id="boton" href="10maqueta05.html">Css</a>
+            <a id="boton" href="10maqueta06.html">Infografia</a>
+            <a id="boton" href="10maqueta07.html">Formulario</a>
+        </aside>
+        <section>
+            <center>
+                
+                <table>
+                    <th>
+                        <h1 style="color: brown;">FORMULARIO HTML</h1>
+                        <form style="display: flexbox; justify-content: center; align-items: center; flex-direction: column;" action="procesar_formulario.php" method="POST">
+                                <legend>Datos personales</legend>
+                            <label>Nombre:</label>
+                            <input type="text" name="nombre">
+                            <br><br>
+                            <label>Apellido:</label>
+                            <input type="text" name="apellido">
+                            <br><br>
+                            <label>Correo:</label>
+                            <input type="email" name="correo">
+                            <br><br>
+                            <label>Telefono:</label>
+                            <input type="text" name="telefono">
+                            <br><br>
+                            <label>Seleccionar fecha de nacimiento:</label>
+                            <input type="date" name="fecha_nacimiento">
+                            <br><br>
+                            <label>Link a Facebook:</label>
+                            <a href="https://www.facebook.com">Facebook</a>
+                            <br><br>
+                            <label>Contraseña:</label>
+                            <input type="password" name="contraseña">
+                            <br><br>
+                            <label>Observaciones:</label>
+                            <input type="text" name="observaciones">
+                            <br><br>
+                            
+                        </form>
+                    </th>
+                    <th>
+                        <form>
+                        <label>Numero de hermanos:</label>
+                            <input type="number" name="numero_hermanos">
+                            <br><br>
+                            <label for="genero">Genero:</label>
+                            <select name="genero" id="genero">
+                                <option value="masculino">Masculino</option>
+                                <option value="femenino">Femenino</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            <br><br>
+                        <label>Semestre con select</label>
+                        <select name="semestre" id="semestre">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                        <br><br>
+                        <label>Carrera con datalist</label>
+                        <input list="carreras" name="carrera">
+                        <datalist id="carreras">
+                            <option value="Ingeniería en Sistemas">
+                            <option value="Licenciatura en Administración">
+                            <option value="Tecnología en Desarrollo de Software">
+                        </datalist>
+                        <br><br>
+                        <label>Campo oculto con Matricula</label>
+                        <input type="hidden" name="matricula">
+                        <br><br>
+                        <button type="submit">Enviar</button>
+                        
+                        </form>
+                    </th>
+                </table>
+                
+            </center>
+        </section>
+    </main>
+    <footer><h1>Gabriel de Jesus</h1></footer>
+</body>
+</html>
