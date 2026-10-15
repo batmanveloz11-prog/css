@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 1s;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 5% 75% 10%;
+    text-align: center;
+}
+header{
+    background: red;
+}
+nav{
+    background: blue;
+}
+main{
+    background: green;
+}
+footer{
+    background: gray;
+}
+@media (max-width: 768px){
+    header{
+        background-color: rgb(166, 144, 144);
+    }
+    nav{
+        background: aquamarine;
+    }
+    main{
+        background: aqua;
+    }
+    footer{
+        background: rgb(163, 36, 36);
+    }
+}
+@media (min-width: 1024px){
+    body{
+        font-size: 50px;
+        color: aqua;
+    }
+}
+@media (min-width: 0px) and (max-width: 400px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+    header{
+        background: peru;
+    }
+    nav{
+        background: red;
+    }
+    main{
+        background: brown;
+    }
+    footer{
+       background: aqua;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 400px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+    header{
+        background: peru;
+    }
+    nav{
+        background: red;
+    }
+    main{
+        background: brown;
+    }
+    footer{
+       background: aqua;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 767px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    header{
+        background-color: aliceblue;
+    }
+    nav{
+         background-color: rgb(12, 81, 121);
+    }
+    main{
+         background-color: rgb(11, 5, 2);
+    }
+    footer{
+         background-color: rgb(11, 180, 226);
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+    header{
+         background-color: rgb(161, 9, 151);
+    }
+    nav{
+         background-color: rgb(36, 42, 232);
+    }
+    main{
+         background-color: rgb(10, 189, 43);
+    }
+    footer{
+         background-color: rgb(26, 125, 211);
+    }
+}
+@media (min-width: 1024px) and (max-width: 1800px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 10fr 1fr;
+    }
+    header{
+        background-color: rgb(0, 255, 162);
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    nav{
+        background-color: rgb(180, 31, 155);
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    main{
+        background-color: rgb(130, 52, 52);
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    footer{
+        background-color: rgb(188, 170, 170);
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+}
